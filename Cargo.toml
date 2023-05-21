@@ -1,0 +1,12 @@
+[package]
+name = "mushid"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+const-crc32 = "1.2.0"
+crc = "3.0.1"
+crc32 = "0.0.2"
+mac_address = "1.1.4"
