@@ -13,9 +13,9 @@ fn get_sys_time() -> u128 {
 
 fn get_mac_address() -> String {
     if let Ok(Some(mac)) = mac_address::get_mac_address() {
-        return mac.to_string();
+        mac.to_string()
     } else {
-        return String::from("00:00:00:00:00:00");
+        String::from("00:00:00:00:00:00")
     }
 }
 
@@ -27,7 +27,7 @@ fn mushid() -> String {
     let time = calculate_crc32_hex(&get_sys_time().to_ne_bytes());
     let buff = get_pid().to_string() + "-" + get_mac_address().as_str();
     let diffrentiator = calculate_crc32_hex(buff.as_bytes());
-    time.to_string() + diffrentiator.as_str()
+    time + diffrentiator.as_str()
 }
 
 #[cfg(test)]
