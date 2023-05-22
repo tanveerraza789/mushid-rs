@@ -2,13 +2,12 @@
 name = "mushid"
 version = "0.1.0"
 edition = "2021"
-description = ""
-keywords = []
+description = "a unique string generator."
+keywords = ["unique-id", "token"]
 readme = "README.md"
-license = "AGPL-3.0-only"
-repository = ""
-documentation = ""
-authors = []
+license = "MIT"
+repository = "https://github.com/tanveerraza789/mushid-rs"
+authors = ["Tanveer Raza <tanveerraza789@gmail.com>"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
