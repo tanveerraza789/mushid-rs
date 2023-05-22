@@ -1,3 +1,13 @@
+//! # Mush ID
+//! A Unique ID generator based on time, network state and OS randomness of distributing PIDs.
+//!
+//! # Usage
+//! ```rust
+//! use mushid::mushid;
+//! let id = mushid();
+//! println!("{id}"); // a6c66fc1cbf9151f
+//! ```
+//!
 use std::time::{SystemTime, UNIX_EPOCH};
 
 fn calculate_crc32_hex(data: &[u8]) -> String {
