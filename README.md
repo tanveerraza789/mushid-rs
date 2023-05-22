@@ -1,4 +1,4 @@
-# mushis-rs
+# mushid-rs
 
 rust Implementation of [mushid](https://github.com/kehiy/mushid)
 
