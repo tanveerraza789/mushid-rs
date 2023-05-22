@@ -1,35 +1,27 @@
-
 # mushis-rs
 
 rust Implementation of [mushid](https://github.com/kehiy/mushid)
-
-
-
 
 ## Installation
 
 Install mushid-rs with cargo
 
 ```bash
-command
+cargo add mushid
 ```
-
 
 ## Usage/Examples
 
 ```rust
-use lib::lib;
+use mushid::mushid;
 
-fn main() {
-   // code
-}
+let id = mushid();
 ```
 
-
 ## Other Programming Languages
+
 [go](https://github.com/kehiy/mushid)
+
 ## Contributing
 
 Contributions are always welcome!
-
-
