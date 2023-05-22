@@ -13,7 +13,7 @@ cargo add mushid
 or use with git
 
 ```toml
-[dependency]
+[dependencies]
 mushid = { git = "https://github.com/tanveerraza789/mushid-rs.git" }
 ```
 
